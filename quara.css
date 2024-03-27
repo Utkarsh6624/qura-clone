@@ -1,0 +1,456 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+}
+/* nav */
+.nav-part1{
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    position:fixed;
+    z-index: 8;
+}
+.para1{
+    margin: 8px 0px 0px 155px;
+    color: #b92b27;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+}
+.ul-tag-one-for-nav li{
+    display: inline-block;
+    margin: 0px 45px 0px 0px ;
+    line-height: 55px;
+    font-size: 25px;
+    color: rgb(29, 27, 27);
+    cursor: pointer;
+}
+.ul-tag-for-nav-first-child i{
+    margin-left: 270px;
+    color: #b92b27;
+}
+.for-search i{
+    position: absolute;
+    font-size: 15px;
+    z-index: 1;
+    top: 18px;
+    left: 660px;
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.452);
+}
+.input-part1{
+    padding: 10px 30px ;
+    width: 300px;
+    position: absolute;
+    top: 8px;
+    left: 650px;
+    outline: none;
+    border: 1px solid black;
+}
+.input-part1:hover{
+    outline: 1px solid rgb(79, 79, 245);
+    transition: 200ms;
+}
+.input-part1:focus{
+    outline: 1px solid rgb(79, 79, 245);
+}
+.side-purpoes i{
+   position: absolute;
+    top: 14px;
+   left: 970px;
+   color: rgba(29, 27, 27, 0.705);
+}
+.side-purpose2 i{
+    position: absolute;
+    left: 1010px;
+    top: 14px;
+    color: rgba(29, 27, 27, 0.849);
+}
+/* modal */
+.container{
+    margin: -50px 0px 250px  300px;
+    height: 450px;
+    width: 700px;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    opacity: 100%;
+    border-radius: 15px;
+    border:1px solid black;
+ }
+ .text{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #212529;
+    margin-left: 300px;
+}
+
+#exit{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.show-button{
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    padding: 8px 17px;
+    font-size: 14px;
+    border: transparent;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #b92b27;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 250px;
+}
+.show-button:hover{
+    background-color: #c7231d;
+    transition: 500ms;
+}
+#show:checked ~ .container{
+    display: block;
+    opacity: 100%;
+}
+.hill{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.Checkbox{
+    display: none;
+}
+.div4{
+    color: #2e69ff;
+    font-weight: 700;
+    margin-left: 70px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.li-model{
+    margin-left: 70px;
+    font-size: 15px;
+    color: #2e69ff;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#circle{
+    font-size: 6px;
+    margin-right: 15px;
+}
+.input-mod{
+    margin-left: 60px;
+    padding: 10px;
+    width: 550px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+
+}
+.input-mod:hover{
+    border-bottom: 1px solid #2e69ff;
+    transition: 300ms;
+}
+.input-mod:focus{
+    border-bottom: 1px solid #2e69ff;
+    transition: 300ms;
+}
+.input-mod2{
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+#link{
+    font-size: 15px;
+    margin-left: 35px;
+}
+.div-for-madel{
+    margin-left: 480px;
+    margin-top: 160px;
+}
+.div-for-madel label{
+    cursor: pointer;
+}
+.Button-for-model{
+   margin-left: 20px;
+   cursor: pointer;
+   padding: 10px 15px; 
+   border-radius: 15px;
+   color: #fff;
+   background-color: #2e69ff;
+   font-weight: 600;
+   border: none;
+}
+.Button-for-model:hover{
+    background-color: #1d5af5;
+    transition: 500ms;
+}
+.div-ultu{
+    margin-bottom: 200px;
+}
+.div-para-o{
+   position: absolute;
+   top: 80px;
+   left: 500px;
+   font-size: 13px;
+   color: #636466;
+}
+.div-para-o span{
+    color: #195faa;
+    cursor: pointer;
+}
+.div-para-o span:hover{
+    text-decoration: 1px solid #195faa underline;
+}
+.ul-part2{
+    position: absolute;
+    top: 100px;
+    left: 150px ;
+}
+.div-smalltext{
+    margin: 15px 0px 0px  400px ;
+    font-size: 13px;
+    color: #636466;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.div-smalltext span{
+    color: #195faa;
+    cursor: pointer;
+}
+.div-smalltext span:hover{
+    text-decoration: 1px solid #195faa underline;
+}
+.for-left{
+    background-color: white;
+    z-index: 6;
+    height: 620px;
+    width: 200px;
+    position: fixed;
+    top: 40px;
+    left: 150px;
+}
+.div-for-left-thing{
+    margin: 100px 0px 0px 20px ;
+    color: #636466;
+    font-size: 13px;
+}
+.div-for-left-thing label{
+    cursor: pointer;
+}
+.div-for-fest-thing-part2 i ,.div-for-left-thing i{
+    margin-right: 10px;
+}
+.div-for-fest-thing-part2{
+    margin: 20px 0px 0px 20px ;
+    color: #636466;
+    font-size: 13px;
+    cursor: pointer;
+}
+/* model */
+.container-for-model2{
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    display: none;
+    z-index: 2;
+    height: 450px;
+    width: 700px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.div-text-for-model2{
+    color: #282829;
+    font-size: 19px;
+    margin:20px 0px 5px 20px ;
+    font-weight: 600;
+}
+.div-para-for-model2 p{
+    margin:0px 0px 20px 20px ;
+    color: #636466;
+}
+#i-tag-part-model{
+    color: black;
+    font-size: 25px;
+    margin: 15px;
+    cursor: pointer;
+}
+.div-for-model2-input-one label,.div-for-model2-input-two label{
+    color: #282829;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.div-for-model2-input-one input,.div-for-model2-input-two input{
+    font-size: 14px;
+    margin: 10px 0px 20px  20px;
+    height: 30px;
+    width: 400px;
+    border: 1px solid black;
+    outline: none;
+}
+.container-for-model2 button{
+    margin: 100px 0px 0px 600px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2e69ff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.container-for-model2 button:hover{
+    background-color: #1a59f7;
+    transition: 500ms;
+}
+.Checkbox2{
+    display: none;
+}
+#Model2:checked ~ .container-for-model2{
+    display: block;
+} 
+.div-main-cointaner-of-center{
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    height: auto;
+    width: 600px;
+}
+.image1{
+    height: 25px;
+    border-radius: 50%;
+}
+.image2{
+    margin: 15px 0px 15px 0px ;
+    height: 350px;
+    width: 100%;
+}
+.para1-for-middle{
+    margin-top: 30px;
+    color: #282829;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.span1{
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    color: #282829;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+/* images */
+.span1:hover,.span2:hover,.para1-for-middle:hover,.span6:hover ,.span4:hover,.span8:hover,.span7:hover,.span10:hover,.span11:hover{
+    text-decoration: underline;
+}
+.span2{
+    position: absolute;
+    left: 130px;
+    top: 5px;
+    color:#2e69ff ;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.span3{
+    position: absolute;
+    color: #636466;
+    font-size: 13px;
+    top: 20px;
+}
+.para2-for-middle{
+    color: #282829;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.para3-for-middle{
+    margin: 10px 0px 0px  20px;
+    color: #636466;
+}
+.para3-for-middle i{
+    margin-right: 10px;
+    color: black;
+}
+.span6,.span7,.span10,.span11{
+    color: #282829;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    top: 245px;
+    left: 30px;
+}
+.span4,.span8{
+    color:#2e69ff ;
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    top: 245px;
+    left: 80px;
+}
+.span5,.span9{
+    color: #636466;
+    font-size: 13px;
+    top: 20px;
+}
+.div-part2 .para1-for-middle{
+    margin-top: 10px;
+}
+.div-part1,.div-part2,.div-part3,.div-part4,.div-part5,.div-part6,.div-part7,.div-part8,.div-part9,.div-part10,.div-part11,.div-part12,.div-part13{
+    margin-bottom: 15px;
+}
+.span7{
+    top: 870px;
+    left: 50px;
+}
+.span8{
+    top: 870px;
+    left: 100px;
+}
+.span10{
+    top: 1420px;
+}
+.span11{
+    top:1940px;
+    left: 35px;
+}
+.span13,.span14,.span15,.span16,.span17,.span18,.span19,.span120{
+    color: #282829;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+.div-right{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    height: auto;
+    width: auto;
+}
+.div-right p{
+    color: #282829;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.div-right label{
+    color: #282829;
+}
+.div-right input{
+    margin-bottom: 25px;
+}
